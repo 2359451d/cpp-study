@@ -1,0 +1,7 @@
+[
+{
+  "directory": "C:/Workspace/cpp_study/build",
+  "command": "C:\\MinGW\\bin\\g++.exe   @CMakeFiles/hello.dir/includes_CXX.rsp -g   -o CMakeFiles\\hello.dir\\program\\hello.obj -c C:\\Workspace\\cpp_study\\program\\hello.cpp",
+  "file": "C:/Workspace/cpp_study/program/hello.cpp"
+}
+]
