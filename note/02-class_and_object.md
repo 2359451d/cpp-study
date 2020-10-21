@@ -2,6 +2,28 @@
 
 类&对象
 
+* [Class & Object](#class--object)
+  * [encapsulation](#encapsulation)
+  * [struct vs class](#struct-vs-class)
+  * [why encapusulation: privacy](#why-encapusulation-privacy)
+    * [example](#example)
+  * [Constructors & Destructors](#constructors--destructors)
+    * [constructors: category & call](#constructors-category--call)
+    * [拷贝构造调用时机](#拷贝构造调用时机)
+    * [构造函数调用规则](#构造函数调用规则)
+    * [深拷贝 & 浅拷贝](#深拷贝--浅拷贝)
+    * [初始化列表](#初始化列表)
+    * [他类对象作为类成员](#他类对象作为类成员)
+    * [静态成员](#静态成员)
+  * [对象模型：成员变量 & 函数](#对象模型成员变量--函数)
+  * [this指针](#this指针)
+  * [空指针访问成员函数](#空指针访问成员函数)
+  * [const修饰成员函数](#const修饰成员函数)
+  * [友元 friend class](#友元-friend-class)
+    * [全局函数: 友元](#全局函数-友元)
+    * [类: 友元](#类-友元)
+    * [成员函数: 友元](#成员函数-友元)
+
 ## encapsulation
 
 封装意义
