@@ -1,12 +1,11 @@
-#ifndef UG
-#define UG
+#ifndef _uGraph_H
+#define _UGraph_H
 
 #include "node.h"
 
 typedef struct {
     // 无向图邻接表
     VertexArray vArray;
-    Vertex ahaha[100];
     int verNum, edgeNum;
 } uGraph;
 

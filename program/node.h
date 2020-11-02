@@ -1,5 +1,5 @@
-#ifndef NODE
-#define NODE
+#ifndef _NODE_
+#define _NODE_
 
 // 定义顶点数组/表节点
 #define MAX_SIZE 100
