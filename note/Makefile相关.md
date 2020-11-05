@@ -131,6 +131,21 @@ $(subst a,the, There is a big tree)
 # $(patsubst a,the,There is a big tree)
 ```
 
+## wildcard
+
+找到特定目录下后缀为x的文件
+
+* `$(wildcard *.x ./sub/*.x)`
+* 如找当前目录下及其子目录中所有文件
+  * `$(wildcard *.c) $(wildcard inc/*.c)`
+
+```makefile
+src=$(wildcard *.c ./sub/*.c) # 展开./目录 & ./sub/目录下 所有后缀为 .c的文件
+
+# 如找到当前目录下及当前目录子目录inc/中所有.c文件 
+#src= $(wildcard *.c) $(wildcard inc/*.c)
+```
+
 ## 特殊字符 $x
 
 `$@`
