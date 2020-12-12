@@ -1,7 +1,12 @@
 [
 {
   "directory": "C:/Workspace/cpp_study/build",
-  "command": "C:\\MinGW\\bin\\g++.exe   @CMakeFiles/hello.dir/includes_CXX.rsp -g   -o CMakeFiles\\hello.dir\\program\\hello.obj -c C:\\Workspace\\cpp_study\\program\\hello.cpp",
-  "file": "C:/Workspace/cpp_study/program/hello.cpp"
+  "command": "C:\\MinGW\\bin\\g++.exe   @CMakeFiles/cpp_study.dir/includes_CXX.rsp -g   -o CMakeFiles\\cpp_study.dir\\main.cpp.obj -c C:\\Workspace\\cpp_study\\main.cpp",
+  "file": "C:/Workspace/cpp_study/main.cpp"
+},
+{
+  "directory": "C:/Workspace/cpp_study/build",
+  "command": "C:\\MinGW\\bin\\g++.exe   @CMakeFiles/solution.dir/includes_CXX.rsp -g   -o CMakeFiles\\solution.dir\\program\\solution.cpp.obj -c C:\\Workspace\\cpp_study\\program\\solution.cpp",
+  "file": "C:/Workspace/cpp_study/program/solution.cpp"
 }
 ]
